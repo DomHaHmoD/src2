@@ -261,6 +261,7 @@ namespace WindowsFormsApp1
             doc.Add(Chart_image);
 
             doc.Close();
+            MessageBox.Show("votre fichier .pdf a bien été créé");
         }
 
         private void button4_Click(object sender, EventArgs e)
