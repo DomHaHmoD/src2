@@ -27,3 +27,17 @@ C:\Users\Dominique H\Downloads\src2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\
 C:\Users\Dominique H\Downloads\src2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Dominique H\Downloads\src2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MaterialDesignColors.dll
 C:\Users\Dominique H\Downloads\src2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MySql.Data.dll
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\itextsharp.dll
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MaterialDesignColors.dll
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\itextsharp.xml
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MySql.Data.xml
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\kev_w\Desktop\ProjetCSharp\src2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

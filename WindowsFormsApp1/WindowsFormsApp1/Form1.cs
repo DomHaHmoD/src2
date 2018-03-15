@@ -141,7 +141,7 @@ namespace WindowsFormsApp1
 			smtp.Port = 587;
             smtp.Credentials = new System.Net.NetworkCredential("bo76h211@gmail.com", "Cesi2017");
 
-            string file = @"C:\Users\Dominique H\Downloads\src2\test.pdf";
+            string file = @"C:\Users\kev_w\Desktop\ProjetCSharp\src2\test.pdf";
             // Create  the file attachment for this e-mail message.
             Attachment data = new Attachment(file, MediaTypeNames.Application.Octet);
             // Add the file attachment to this e-mail message.
@@ -178,7 +178,7 @@ namespace WindowsFormsApp1
             string totalTime = "01:25:00";
 
             Document doc = new Document(PageSize.A4, 10f, 10f, 10f, 10f);
-            PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(@"C: \Users\Dominique H\Downloads\src2\test.pdf", FileMode.Create));
+            PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(@"C: \Users\kev_w\Desktop\ProjetCSharp\src2\test.pdf", FileMode.Create));
             doc.Open();
             Paragraph paragraph1 = new Paragraph("Fichier créé le : " + DateTime.Now);
             paragraph1.SpacingAfter = 10;
@@ -261,6 +261,7 @@ namespace WindowsFormsApp1
             doc.Add(Chart_image);
 
             doc.Close();
+            MessageBox.Show("Fichier PDF exporté!");
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -299,12 +300,12 @@ namespace WindowsFormsApp1
             Console.ReadLine();
 			try
 			{
-				//string pathCsv = @"C:\Users\Dominique H\Downloads\src2\sourcedonnees.csv";
-				string pathCsv = @"C:\Users\Dominique H\Downloads\src2\sourcedonnees.csv";
+				//string pathCsv = @"C:\Users\kev_w\Desktop\ProjetCSharp\src2\sourcedonnees.csv";
+				string pathCsv = @"C:\Users\kev_w\Desktop\ProjetCSharp\src2\sourcedonnees.csv";
 				File.AppendAllText(pathCsv, csvcontent.ToString());
 
 				Console.WriteLine("fichier csv créé");
-				MessageBox.Show("votre fichier .csv a bien été céer");
+				MessageBox.Show("Fichier CSV exporté!");
 			}
 			catch
 			{
@@ -325,7 +326,7 @@ namespace WindowsFormsApp1
             conn.Open();
             Console.WriteLine("Connected");
 
-            string path = @"C:\Users\Dominique H\Downloads\src2\source_donnees.txt";
+            string path = @"C:\Users\kev_w\Desktop\ProjetCSharp\src2\source_donnees.txt";
             int counter = 0;
 
             String[] file = File.ReadAllLines(path);         // Read the file and display it line by line.  
