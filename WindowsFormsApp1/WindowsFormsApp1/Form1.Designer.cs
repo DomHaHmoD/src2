@@ -45,11 +45,9 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -76,35 +74,35 @@
             this.exportPdfToolStripMenuItem,
             this.envoiEmailToolStripMenuItem});
             this.dataToolStripMenuItem.Name = "dataToolStripMenuItem";
-            this.dataToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
-            this.dataToolStripMenuItem.Text = "Data";
+            this.dataToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.dataToolStripMenuItem.Text = "Fichier";
             // 
             // importTxtToolStripMenuItem
             // 
             this.importTxtToolStripMenuItem.Name = "importTxtToolStripMenuItem";
-            this.importTxtToolStripMenuItem.Size = new System.Drawing.Size(161, 26);
-            this.importTxtToolStripMenuItem.Text = "Import txt";
+            this.importTxtToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
+            this.importTxtToolStripMenuItem.Text = "Importer données brutes";
             this.importTxtToolStripMenuItem.Click += new System.EventHandler(this.importTxtToolStripMenuItem_Click);
             // 
             // exportCsvToolStripMenuItem
             // 
             this.exportCsvToolStripMenuItem.Name = "exportCsvToolStripMenuItem";
-            this.exportCsvToolStripMenuItem.Size = new System.Drawing.Size(161, 26);
-            this.exportCsvToolStripMenuItem.Text = "Export csv";
+            this.exportCsvToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
+            this.exportCsvToolStripMenuItem.Text = "Exporter Tableau (CSV)";
             this.exportCsvToolStripMenuItem.Click += new System.EventHandler(this.exportCsvToolStripMenuItem_Click);
             // 
             // exportPdfToolStripMenuItem
             // 
             this.exportPdfToolStripMenuItem.Name = "exportPdfToolStripMenuItem";
-            this.exportPdfToolStripMenuItem.Size = new System.Drawing.Size(161, 26);
-            this.exportPdfToolStripMenuItem.Text = "Export pdf";
+            this.exportPdfToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
+            this.exportPdfToolStripMenuItem.Text = "Exporter Rapport PDF";
             this.exportPdfToolStripMenuItem.Click += new System.EventHandler(this.exportPdfToolStripMenuItem_Click);
             // 
             // envoiEmailToolStripMenuItem
             // 
             this.envoiEmailToolStripMenuItem.Name = "envoiEmailToolStripMenuItem";
-            this.envoiEmailToolStripMenuItem.Size = new System.Drawing.Size(161, 26);
-            this.envoiEmailToolStripMenuItem.Text = "Envoi email";
+            this.envoiEmailToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
+            this.envoiEmailToolStripMenuItem.Text = "Envoyer PDF par Mail";
             this.envoiEmailToolStripMenuItem.Click += new System.EventHandler(this.envoiEmailToolStripMenuItem_Click);
             // 
             // affichageToolStripMenuItem
@@ -147,31 +145,14 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button1.Location = new System.Drawing.Point(12, 31);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 23);
+            this.button1.Size = new System.Drawing.Size(135, 29);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Load Tab";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Tableau données";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(135, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(257, 32);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(98, 32);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "supprimer";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // chart1
             // 
@@ -198,33 +179,31 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(670, 32);
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button3.Location = new System.Drawing.Point(670, 31);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(95, 23);
+            this.button3.Size = new System.Drawing.Size(172, 29);
             this.button3.TabIndex = 7;
-            this.button3.Text = "Load Chart";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Text = "Graphique données";
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // textBox1
             // 
-            this.button4.Location = new System.Drawing.Point(370, 31);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(103, 33);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Envoi Email";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.textBox1.Location = new System.Drawing.Point(153, 34);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(123, 22);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1336, 397);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.chart1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
@@ -232,7 +211,7 @@
             this.Location = new System.Drawing.Point(100, 100);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Traitement des fichiers";
+            this.Text = "Traitement de fichier capteur";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -256,11 +235,9 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
